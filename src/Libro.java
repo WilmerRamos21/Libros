@@ -15,6 +15,7 @@ public class Libro {
         this.paginas = paginas;
 
     }
+    //Metodos Personalizados
     public void imprimir(){
         System.out.println("El titulo es: "+this.titulo);
         System.out.println("El autor es: "+this.autor);
