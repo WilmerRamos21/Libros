@@ -1,25 +1,47 @@
 public class Cancion {
     String nombre;
-    String genero;
     String artista;
-    int duracion;
+    double duracion;
+    double visualizaciones;
+    String genero;
 
-    public Cancion (String nombre, String genero, String artista, int duracion) {
+
+    public Cancion(String nombre, String artista, double duracion, double visualizaciones, String genero) {
         this.nombre = nombre;
-        this.genero = genero;
         this.artista = artista;
         this.duracion = duracion;
+        this.visualizaciones = visualizaciones;
+        this.genero = genero;
     }
-    public void imprimir(){
-        System.out.println("El nombre es : " + this.nombre);
-        System.out.println("El genero es : " + this.genero);
-        System.out.println("El artista es : " + this.artista);
-        System.out.println("La duracion de la cancion es : " + this.duracion);
-        System.out.println("----------------");
+
+    public String getNombre() {
+        return nombre;
     }
-    public int imprimirDuracion(){
-        return this.duracion+5;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public String getArtista() {
+        return artista;
+    }
+    public void setArtista(String artista) {
+        this.artista = artista;
+    }
+    public double getDuracion() {
+        return duracion;
+    }
+    public void setDuracion(double duracion) {
+        this.duracion = duracion;
+    }
+    public double getVisualizaciones() {
+        return visualizaciones;
+    }
+    public void setVisualizaciones(double visualizaciones) {
+        this.visualizaciones = visualizaciones;
+    }
+    public String getGenero() {
+        return genero;
+    }
+    public void setGenero(String genero) {
+        this.genero = genero;
     }
 }
-
-
