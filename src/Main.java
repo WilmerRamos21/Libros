@@ -12,7 +12,6 @@ public class Main {
     Libro libro4 = new Libro("Baldomera","Alberto Sanches", "Antarares",200);
     Libro libro5 = new Libro("Viaje al centro de la tierra","Julio Verme","Antarares",500);
 
-
     libro1.imprimir();
     libro1.imprimirCubierta();
     libro2.imprimir();
@@ -23,5 +22,9 @@ public class Main {
     libro4.imprimirCubierta();
     libro5.imprimir();
     libro5.imprimirCubierta();
+
+    
+
+
     }
 }
