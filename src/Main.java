@@ -23,8 +23,10 @@ public class Main {
     libro5.imprimir();
     libro5.imprimirCubierta();
 
-    
+    Videojuegos videojuegos1 = new Videojuegos("God of war","Aventura","PlayStation",2015);
+    Videojuegos videojuegos2 = new Videojuegos("Need for speed", "carreras","Xbox", 2012);
 
-
+    System.out.println(videojuegos1.getNombre());
+    System.out.println(videojuegos2.getNombre());
     }
 }
