@@ -44,4 +44,35 @@ public class Cancion {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+    //Getters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+    public String getArtista() {
+        return artista;
+    }
+    public int getDuracion() {
+        return duracion;
+    }
+
+    //Setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+    public void setArtista(String artista) {
+        this.artista = artista;
+    }
+    public void setDuracion(int duracion) {
+        this.duracion = duracion;
+    }
+
+
+
 }
